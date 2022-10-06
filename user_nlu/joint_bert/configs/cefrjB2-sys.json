@@ -1,0 +1,25 @@
+{
+  "data_dir": "/home/ohashi/dev/antor/user_nlu/joint_bert/multiwoz_data/cefrjB2-sys",
+  "output_dir": "/home/ohashi/dev/antor/user_nlu/joint_bert/output/cefrjB2-sys",
+  "log_dir": "/home/ohashi/dev/antor/user_nlu/joint_bert/log/cefrjB2-sys",
+  "zipped_model_path": "/home/ohashi/dev/antor/user_nlu/joint_bert/output/cefrjB2-sys/cefrjB2-sys.zip",
+  "DEVICE": "cuda:0",
+  "seed": 42,
+  "cut_sen_len": 40,
+  "use_bert_tokenizer": true,
+  "model": {
+    "finetune": true,
+    "context": false,
+    "context_grad": false,
+    "pretrained_weights": "bert-base-uncased",
+    "check_step": 1000,
+    "max_step": 10000,
+    "batch_size": 40,
+    "learning_rate": 1e-4,
+    "adam_epsilon": 1e-8,
+    "warmup_steps": 0,
+    "weight_decay": 0.0,
+    "dropout": 0.1,
+    "hidden_units": 1536
+  }
+}

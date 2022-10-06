@@ -1,0 +1,1 @@
+from user_nlu.joint_bert.nlu import SimulatorBERTNLU
