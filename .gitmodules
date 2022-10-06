@@ -1,0 +1,3 @@
+[submodule "ConvLab-2"]
+	path = ConvLab-2
+	url = https://github.com/thu-coai/ConvLab-2.git
